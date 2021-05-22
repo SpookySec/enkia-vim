@@ -1,5 +1,5 @@
 " VIM color file
-"
+ "
 " Note: Based on the Enki-Alt theme for Sublime Text
 " by Kristi Russell (http://github.com/enkia)
 hi clear
@@ -9,8 +9,10 @@ if version > 580
 		syntax reset
 	endif
 endif
+
 set t_Co=256
-let g:colors_name="Enki-Alt"
+let g:colors_name="enkia"
+
 hi Character       guifg=#F99157 guibg=None guisp=None gui=None ctermfg=209 ctermbg=None cterm=None
 hi Comment         guifg=#4f4f5e guibg=None guisp=None gui=italic ctermfg=239 ctermbg=None cterm=italic
 hi Constant        guifg=#F99157 guibg=None guisp=None gui=None ctermfg=209 ctermbg=None cterm=None
